@@ -1,58 +1,57 @@
 <div align="center">
-  <h1>🎬 Movie Web App</h1>
-  <p>Aplikasi web sederhana untuk mencari dan melihat informasi film favoritmu, dibangun murni dengan HTML, CSS, dan JavaScript.</p>
+<h1>🎬 Movie Web App</h1>
+<p>A simple web application for searching and viewing information about your favorite movies, built purely with HTML, CSS, and JavaScript.</p>
 
-  <p>
-    <a href="https://github.com/PutraFirdausR/movie-web-app/stargazers">
-      <img src="https://img.shields.io/github/stars/PutraFirdausR/movie-web-app?style=social" alt="Stars" />
-    </a>
-    <a href="https://github.com/PutraFirdausR/movie-web-app/network/members">
-      <img src="https://img.shields.io/github/forks/PutraFirdausR/movie-web-app?style=social" alt="Forks" />
-    </a>
-  </p>
+<p>
+<a href="https://github.com/PutraFirdausR/movie-web-app/stargazers">
+<img src="https://img.shields.io/github/stars/PutraFirdausR/movie-web-app?style=social" alt="Stars" />
+</a>
+<a href="https://github.com/PutraFirdausR/movie-web-app/network/members">
+<img src="https://img.shields.io/github/forks/PutraFirdausR/movie-web-app?style=social" alt="Forks" />
+</a>
+</p>
 </div>
 
 <br />
 
-## 📌 Tentang Proyek
+## 📌 About the Project
 
-**Movie Web App** adalah proyek *frontend* interaktif yang memungkinkan pengguna untuk melakukan pencarian judul film dan melihat detailnya (seperti poster, tahun rilis, dan plot cerita). Data film diambil secara *real-time* menggunakan *Fetch API* dari penyedia data film pihak ketiga.
+Movie Web App is an interactive frontend project that allows users to search for movie titles and view details (such as poster, release year, and plot). Movie data is fetched in real-time using the Fetch API from a third-party movie data provider.
 
-Proyek ini sangat cocok untuk melatih pemahaman dasar DOM Manipulation, Asynchronous JavaScript (Async/Await & Fetch), dan desain antarmuka yang responsif.
+This project is perfect for practicing basic DOM manipulation, asynchronous JavaScript (Async/Await & Fetch), and responsive interface design.
 
-## 🚀 Fitur Utama
+## 🚀 Key Features
 
-* **Pencarian Film:** Ketik judul film dan dapatkan hasil pencarian secara instan.
-* **Detail Informasi:** Menampilkan poster film, judul, tahun rilis, dan detail lainnya.
-* **Desain Responsif:** Tampilan yang menyesuaikan ukuran layar, nyaman dibuka di PC maupun HP.
-* **Ringan & Cepat:** Berjalan langsung di *browser* tanpa perlu kompilasi tambahan.
+* Movie Search: Type a movie title and get search results instantly.
+* Detailed Information: Displays the movie poster, title, release year, and other details.
+* Responsive Design: Adapts to any screen size, suitable for both PC and mobile devices.
+* Light & Fast: Runs directly in the browser without the need for additional compilation.
 
-## ⚙️ Teknologi yang Digunakan
+## ⚙️ Technologies Used
 
-* **HTML5** - Untuk kerangka dan struktur halaman.
-* **CSS3** - Untuk memberikan gaya, *layout*, dan animasi visual.
-* **JavaScript (ES6+)** - Untuk logika aplikasi, manipulasi DOM, dan memanggil API (Fetch API).
+* HTML5 - For the framework and structure of the page.
+* CSS3 - For styling, layout, and visual animation.
+* JavaScript (ES6+) - For application logic, DOM manipulation, and API calls (Fetch API).
 
-## 🛠️ Cara Penggunaan
+## 🛠️ How to Use
 
-Karena proyek ini menggunakan HTML, CSS, dan JS murni, kamu tidak perlu menginstal *module* atau *library* apa pun.
+Because this project uses pure HTML, CSS, and JS, you don't need to install any modules or libraries.
 
-### Langkah-langkah:
+### Steps:
 
-1.  **Clone repositori ini:**
-    ```bash
-    git clone [https://github.com/PutraFirdausR/movie-web-app.git](https://github.com/PutraFirdausR/movie-web-app.git)
-    ```
-2.  **Masuk ke folder proyek:**
-    ```bash
-    cd movie-web-app
-    ```
-3.  **Jalankan aplikasi:**
-    Cukup klik ganda pada file `index.html` untuk membukanya di *browser* bawaanmu.
-    *(Alternatif: Gunakan ekstensi "Live Server" di VS Code untuk pengalaman yang lebih baik).*
+1. **Clone this repository:**
+```bash
+git clone [https://github.com/PutraFirdausR/movie-web-app.git](https://github.com/PutraFirdausR/movie-web-app.git)
+```
+2. **Go to the project folder:**
+```bash
+cd movie-web-app
+```
+3. **Run the application:**
+Simply double-click the `index.html` file to open it in your default browser. *(Alternative: Use the "Live Server" extension in VS Code for a better experience).*
 
-### 🔑 Pengaturan API Key (Jika Menggunakan API Eksternal)
-Jika aplikasi ini mengambil data dari API seperti OMDB atau TMDB, pastikan kamu mengganti `API_KEY` di dalam file `script.js` (atau file JS milikmu) dengan API Key milikmu sendiri.
+### 🔑 API Key Settings (If Using an External API)
+If this application retrieves data from an API such as OMDB or TMDB, make sure you replace `API_KEY` in the `script.js` file (or your own JS file) with your own API key.
 ```javascript
-// Contoh di file script.js
-const API_KEY = 'masukkan_api_key_kamu_di_sini';
+// Example in script.js file
+const API_KEY = 'insert_your_api_key_here';
